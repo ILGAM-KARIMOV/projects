@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#DIPLOM-66] Скидка при применении купона 100% стоимости любого товара при оформлении заказа</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://web-diplom.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [DIPLOM-66]&nbsp;<a href="https://web-diplom.atlassian.net/browse/DIPLOM-66">Скидка при применении купона 100% стоимости любого товара при оформлении заказа</a>
+            <span class="subText">
+               Создано: 05/июл/23                   &nbsp;Обновлено: 27/июл/23
+
+                                                    &nbsp;Решено: 27/июл/23
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Статус:</b></td>
+        <td width="80%">Готово</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Проект:</b></td>
+        <td width="80%"><a href="https://web-diplom.atlassian.net/secure/BrowseProject.jspa?id=10000">Итоговый проект &quot;Интернет-магазин &quot;Skillbox&quot;&quot;</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Компоненты:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии Affects:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии исправления:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Тип:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Баг
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Приоритет:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Автор:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:af2b3ec0-d201-428b-a90a-87effde4edc5"
+                id="word_reporter_712020:af2b3ec0-d201-428b-a90a-87effde4edc5"
+                href="https://web-diplom.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aaf2b3ec0-d201-428b-a90a-87effde4edc5">
+                    ILGAM KARIMOV
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Исполнитель:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Не назначено
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Решение:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Готово
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Голоса:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Метки:</b>
+        </td>
+        <td id="labels-10065-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Нет
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Оценка остатка:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Затраченное время:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Исходная оценка:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Связи задачи:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://web-diplom.atlassian.net/browse/DIPLOM-63">
+                     DIPLOM-63                 </a>
+            </td>
+            <td>
+                Тестирование безопасности
+            </td>
+            <td>
+                К выполнению
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10065-value" class="value" bgcolor="#ffffff" width="80%">      0|i000dr:
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Описание</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Описание: Для нужд тестирования выделены промокод на 20% "ХХХ" и сертификат на 500 рублей "УУУ", выданные для тестирования  сертификаты многоразовые.</p>
+
+<p>Окружение: Windows 10 Pro Версия 22H2; Chrome Версия 114.0.5735.199 (Официальная сборка), (64 бит)</p>
+
+<p>Версия сайта: отсутствует</p>
+
+<p>Приоритет: Критичный</p>
+
+<p>Стабильность воспроизведения: Стабильно</p>
+
+<p>Предусловие: <a href="http://intershop3.skillbox.ru/," title="smart-link" class="external-link" rel="nofollow noreferrer">http://intershop3.skillbox.ru/,</a>  логин/пароль: "1234e5/1234e5"</p>
+
+<p>Шаги воспроизведения: </p>
+
+<ol>
+	<li>Добавить в корзину любой товар, например, "iPad Air 2020 64gb wi-fi";</li>
+	<li>Ввести значение купона "ХХХ";</li>
+	<li>Нажать кнопку "Применить купон";</li>
+	<li>Добавить в корзину любой товар, например, "Samsung S10";</li>
+	<li>Ввести значение купона "УУУ";</li>
+	<li>Нажать кнопку "Применить купон";</li>
+	<li>Нажать кнопку "Перейти к оплате";</li>
+	<li>Авторизоваться;</li>
+	<li>Нажать кнопку "Оформить заказ".</li>
+</ol>
+
+
+<p>Фактический результат: Скидка при применении купона 100% стоимости любого товара(ов)</p>
+
+<p>Ожидаемый результат: Скидка при применении купона установленный процент( 20%) или сумма (500 рублей)</p>
+
+<p>Дополнительная информация:</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+Полученный Thu Oct 26 12:52:56 UTC 2023 ILGAM KARIMOV используя JIRA 1001.0.0-SNAPSHOT#100239-sha1:6e1a147207e61ba260cfc88aad6ebffbf80e0ae2.
+
+</body>
+</html>

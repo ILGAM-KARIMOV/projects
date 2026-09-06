@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#DIPLOM-69] Тестирование UI</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://web-diplom.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [DIPLOM-69]&nbsp;<a href="https://web-diplom.atlassian.net/browse/DIPLOM-69">Тестирование UI</a>
+            <span class="subText">
+               Создано: 05/июл/23                   &nbsp;Обновлено: 06/авг/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Статус:</b></td>
+        <td width="80%">К выполнению</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Проект:</b></td>
+        <td width="80%"><a href="https://web-diplom.atlassian.net/secure/BrowseProject.jspa?id=10000">Итоговый проект &quot;Интернет-магазин &quot;Skillbox&quot;&quot;</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Компоненты:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии Affects:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Версии исправления:</b></td>
+            <td>
+                            Нет
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Тип:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Задача
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Приоритет:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Автор:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:af2b3ec0-d201-428b-a90a-87effde4edc5"
+                id="word_reporter_712020:af2b3ec0-d201-428b-a90a-87effde4edc5"
+                href="https://web-diplom.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aaf2b3ec0-d201-428b-a90a-87effde4edc5">
+                    ILGAM KARIMOV
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Исполнитель:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Не назначено
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Решение:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Нет решения
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Голоса:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Метки:</b>
+        </td>
+        <td id="labels-10068-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Нет
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Оценка остатка:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Затраченное время:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Исходная оценка:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Не определено
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Связи задачи:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://web-diplom.atlassian.net/browse/DIPLOM-70">
+                     DIPLOM-70                 </a>
+            </td>
+            <td>
+                Цвет кнопок &quot;В корзину&quot; и &quot;Подробнее&quot;...
+            </td>
+            <td>
+                К выполнению
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://web-diplom.atlassian.net/browse/DIPLOM-71">
+                     DIPLOM-71                 </a>
+            </td>
+            <td>
+                Отсутствует на макете блок &quot;Преимущес...
+            </td>
+            <td>
+                К выполнению
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://web-diplom.atlassian.net/browse/DIPLOM-74">
+                     DIPLOM-74                 </a>
+            </td>
+            <td>
+                Название блока &quot;Товары&quot; на странице &quot;...
+            </td>
+            <td>
+                К выполнению
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://web-diplom.atlassian.net/browse/DIPLOM-75">
+                     DIPLOM-75                 </a>
+            </td>
+            <td>
+                Цвет фона хедера (#ffffff) ниже (#f5f...
+            </td>
+            <td>
+                К выполнению
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://web-diplom.atlassian.net/browse/DIPLOM-76">
+                     DIPLOM-76                 </a>
+            </td>
+            <td>
+                При наведении курсора на кнопку &quot;В ко...
+            </td>
+            <td>
+                К выполнению
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://web-diplom.atlassian.net/browse/DIPLOM-77">
+                     DIPLOM-77                 </a>
+            </td>
+            <td>
+                Фон кнопки &quot;Войти&quot; красный (#c97178) ...
+            </td>
+            <td>
+                К выполнению
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://web-diplom.atlassian.net/browse/DIPLOM-78">
+                     DIPLOM-78                 </a>
+            </td>
+            <td>
+                Цвет надписи и кромки (border) кнопки...
+            </td>
+            <td>
+                К выполнению
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://web-diplom.atlassian.net/browse/DIPLOM-79">
+                     DIPLOM-79                 </a>
+            </td>
+            <td>
+                Надпись при ошибке &quot;Error:&quot; на англий...
+            </td>
+            <td>
+                К выполнению
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://web-diplom.atlassian.net/browse/DIPLOM-80">
+                     DIPLOM-80                 </a>
+            </td>
+            <td>
+                Кромка красного цвета (#e24545) кнопк...
+            </td>
+            <td>
+                К выполнению
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://web-diplom.atlassian.net/browse/DIPLOM-81">
+                     DIPLOM-81                 </a>
+            </td>
+            <td>
+                Цвет фона кнопки &quot;Сохранить изменения...
+            </td>
+            <td>
+                К выполнению
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://web-diplom.atlassian.net/browse/DIPLOM-82">
+                     DIPLOM-82                 </a>
+            </td>
+            <td>
+                Надпись &quot;Order #&quot; на английском во вк...
+            </td>
+            <td>
+                К выполнению
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://web-diplom.atlassian.net/browse/DIPLOM-83">
+                     DIPLOM-83                 </a>
+            </td>
+            <td>
+                Отсутствуют цены без скидки и с учето...
+            </td>
+            <td>
+                К выполнению
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://web-diplom.atlassian.net/browse/DIPLOM-84">
+                     DIPLOM-84                 </a>
+            </td>
+            <td>
+                Фон кнопки &quot;В корзину&quot; красного цвета...
+            </td>
+            <td>
+                К выполнению
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://web-diplom.atlassian.net/browse/DIPLOM-85">
+                     DIPLOM-85                 </a>
+            </td>
+            <td>
+                Заголовок &quot;Description&quot; на английском...
+            </td>
+            <td>
+                К выполнению
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://web-diplom.atlassian.net/browse/DIPLOM-86">
+                     DIPLOM-86                 </a>
+            </td>
+            <td>
+                Наименование блока &quot;СОПУТСТВУЮЩИЕ ТОВ...
+            </td>
+            <td>
+                К выполнению
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://web-diplom.atlassian.net/browse/DIPLOM-87">
+                     DIPLOM-87                 </a>
+            </td>
+            <td>
+                Галочка на фоне красного цвета (#e245...
+            </td>
+            <td>
+                К выполнению
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://web-diplom.atlassian.net/browse/DIPLOM-88">
+                     DIPLOM-88                 </a>
+            </td>
+            <td>
+                Не отображается поле для ввода отзыва...
+            </td>
+            <td>
+                К выполнению
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://web-diplom.atlassian.net/browse/DIPLOM-91">
+                     DIPLOM-91                 </a>
+            </td>
+            <td>
+                Цвет шрифта названия товара (#7f7e7e)...
+            </td>
+            <td>
+                К выполнению
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://web-diplom.atlassian.net/browse/DIPLOM-92">
+                     DIPLOM-92                 </a>
+            </td>
+            <td>
+                Сообщение &quot;Coupon code applied succes...
+            </td>
+            <td>
+                К выполнению
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://web-diplom.atlassian.net/browse/DIPLOM-93">
+                     DIPLOM-93                 </a>
+            </td>
+            <td>
+                Сообщение &quot;Coupon has been removed.&quot; ...
+            </td>
+            <td>
+                К выполнению
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://web-diplom.atlassian.net/browse/DIPLOM-94">
+                     DIPLOM-94                 </a>
+            </td>
+            <td>
+                Сообщение &quot;Coupon code already applie...
+            </td>
+            <td>
+                К выполнению
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://web-diplom.atlassian.net/browse/DIPLOM-95">
+                     DIPLOM-95                 </a>
+            </td>
+            <td>
+                Крестик удаления товара(ов) из корзин...
+            </td>
+            <td>
+                К выполнению
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://web-diplom.atlassian.net/browse/DIPLOM-142">
+                     DIPLOM-142                 </a>
+            </td>
+            <td>
+                Отсутствуют на макете контактные данн...
+            </td>
+            <td>
+                К выполнению
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://web-diplom.atlassian.net/browse/DIPLOM-143">
+                     DIPLOM-143                 </a>
+            </td>
+            <td>
+                Название фильтра по цене &quot;ФИЛЬТРОВАТЬ...
+            </td>
+            <td>
+                К выполнению
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://web-diplom.atlassian.net/browse/DIPLOM-144">
+                     DIPLOM-144                 </a>
+            </td>
+            <td>
+                Отсутствует на макете категория в Кар...
+            </td>
+            <td>
+                К выполнению
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://web-diplom.atlassian.net/browse/DIPLOM-145">
+                     DIPLOM-145                 </a>
+            </td>
+            <td>
+                Надпись &quot;Общая сводка&quot; в разделе Корз...
+            </td>
+            <td>
+                К выполнению
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://web-diplom.atlassian.net/browse/DIPLOM-147">
+                     DIPLOM-147                 </a>
+            </td>
+            <td>
+                Текст &quot;Твоя оценка&quot; и &quot;Твой отзыв&quot; во...
+            </td>
+            <td>
+                К выполнению
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://web-diplom.atlassian.net/browse/DIPLOM-148">
+                     DIPLOM-148                 </a>
+            </td>
+            <td>
+                Не соотвествует расположение поля для...
+            </td>
+            <td>
+                К выполнению
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://web-diplom.atlassian.net/browse/DIPLOM-149">
+                     DIPLOM-149                 </a>
+            </td>
+            <td>
+                Кнопка Оформить заказ меняет цвет на ...
+            </td>
+            <td>
+                К выполнению
+            </td>
+        </tr>
+                                        <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://web-diplom.atlassian.net/browse/DIPLOM-146">
+                     DIPLOM-146                 </a>
+            </td>
+            <td>
+                Надпись &quot;Сумма&quot; в разделе Корзина на ...
+            </td>
+            <td>
+                К выполнению
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10068-value" class="value" bgcolor="#ffffff" width="80%">      0|i000ef:
+  </td>
+            </tr>
+            </table>
+
+
+Полученный Thu Oct 26 12:55:53 UTC 2023 ILGAM KARIMOV используя JIRA 1001.0.0-SNAPSHOT#100239-sha1:6e1a147207e61ba260cfc88aad6ebffbf80e0ae2.
+
+</body>
+</html>

@@ -1,0 +1,818 @@
+{
+	"info": {
+		"_postman_id": "b0a731fc-7498-4803-83e3-7a3f12450e12",
+		"name": "Итоговый проект \"Интернет-магазин \"Skillbox\"",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27632914"
+	},
+	"item": [
+		{
+			"name": "Получение списка товаров",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "iamfinallytester",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "skillboxadmin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://intershop3.skillbox.ru/api/products",
+					"protocol": "http",
+					"host": [
+						"intershop3",
+						"skillbox",
+						"ru"
+					],
+					"path": [
+						"api",
+						"products"
+					],
+					"query": [
+						{
+							"key": "manage_stock",
+							"value": "true",
+							"disabled": true
+						},
+						{
+							"key": "name",
+							"value": "холодильник",
+							"disabled": true
+						},
+						{
+							"key": "price",
+							"value": "80",
+							"disabled": true
+						},
+						{
+							"key": "regular_price",
+							"value": "80",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Получение карточки конкретного товара",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "iamfinallytester",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "skillboxadmin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://intershop3.skillbox.ru/api/products/355408",
+					"protocol": "http",
+					"host": [
+						"intershop3",
+						"skillbox",
+						"ru"
+					],
+					"path": [
+						"api",
+						"products",
+						"355408"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Создание карточки товара",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "iamfinallytester",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "skillboxadmin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"name\": \"Люди в черном джинсы тест\",\r\n\"slug\": \"Man-in-Black-Jeans-test\",\r\n\"manage_stock\": \"false\",\r\n\"stock_quantity\": 15,\r\n\"description\": \"Very black jeans\",\r\n\"price\": \"15\",\r\n\"regular_price\": \"55\",\r\n\"sale_price\": \"45\",\r\n\"categories\": [\r\n{\r\n\"id\": 19,\r\n\"name\": \"Каталог\",\r\n\"slug\": \"catalog\"\r\n}\r\n]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://intershop3.skillbox.ru/api/products",
+					"protocol": "http",
+					"host": [
+						"intershop3",
+						"skillbox",
+						"ru"
+					],
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Редактирование карточки товара",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "iamfinallytester",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "skillboxadmin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"sale_price\": \"100\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://intershop3.skillbox.ru/api/products/355611",
+					"protocol": "http",
+					"host": [
+						"intershop3",
+						"skillbox",
+						"ru"
+					],
+					"path": [
+						"api",
+						"products",
+						"355611"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Удаление карточки товара",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "iamfinallytester",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "skillboxadmin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://intershop3.skillbox.ru/api/products/355611",
+					"protocol": "http",
+					"host": [
+						"intershop3",
+						"skillbox",
+						"ru"
+					],
+					"path": [
+						"api",
+						"products",
+						"355611"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Создание карточки товара/ Ванька-встанька",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "iamfinallytester",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "skillboxadmin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"name\": \"Ванька-встанька тест\",\r\n\"slug\": \"Vanka-vstanka-test\",\r\n\"manage_stock\": \"true\",\r\n\"stock_quantity\": 9,\r\n\"description\": \"<p>Веселая игрушка</p>\\n\",\r\n\"price\": \"100\",\r\n\"regular_price\": \"200\",\r\n\"sale_price\": \"100\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://intershop3.skillbox.ru/api/products",
+					"protocol": "http",
+					"host": [
+						"intershop3",
+						"skillbox",
+						"ru"
+					],
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Редактирование карточки товара/\"stock_quantity\": заданное значение + 2",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "iamfinallytester",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "skillboxadmin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"stock_quantity\": 30\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://intershop3.skillbox.ru/api/products/355838",
+					"protocol": "http",
+					"host": [
+						"intershop3",
+						"skillbox",
+						"ru"
+					],
+					"path": [
+						"api",
+						"products",
+						"355838"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Удаление карточки товара/Удален товар с id указанного в запросе минус один",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "iamfinallytester",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "skillboxadmin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://intershop3.skillbox.ru/api/products/355581",
+					"protocol": "http",
+					"host": [
+						"intershop3",
+						"skillbox",
+						"ru"
+					],
+					"path": [
+						"api",
+						"products",
+						"355581"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Получение карточки конкретного товара/Удален товар с id указанного в запросе минус один",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "iamfinallytester",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "skillboxadmin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://intershop3.skillbox.ru/api/products/355580",
+					"protocol": "http",
+					"host": [
+						"intershop3",
+						"skillbox",
+						"ru"
+					],
+					"path": [
+						"api",
+						"products",
+						"355580"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Создание карточки товара/отрицательный остаток",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "iamfinallytester",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "skillboxadmin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"name\": \"Лыжи зимние летом не катят тест\",\r\n\"slug\": \"Winter-skis-do-not-roll-in-summer-test\",\r\n\"manage_stock\": \"true\",\r\n\"stock_quantity\": -666,\r\n\"description\": \"<p>Брать лучше на зиму</p>\\n\",\r\n\"price\": \"999\",\r\n\"regular_price\": \"1999\",\r\n\"sale_price\": \"999\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://intershop3.skillbox.ru/api/products",
+					"protocol": "http",
+					"host": [
+						"intershop3",
+						"skillbox",
+						"ru"
+					],
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Редактирование карточки товара/с \"true\" на \"false\"",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "iamfinallytester",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "skillboxadmin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"manage_stock\": false\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://intershop3.skillbox.ru/api/products/356730",
+					"protocol": "http",
+					"host": [
+						"intershop3",
+						"skillbox",
+						"ru"
+					],
+					"path": [
+						"api",
+						"products",
+						"356730"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Создание карточки товара/отрицательные цены",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "iamfinallytester",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "skillboxadmin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"name\": \"Сладости несладкие тест\",\r\n\"slug\": \"Sweets-unsweetened-test\",\r\n\"manage_stock\": \"true\",\r\n\"stock_quantity\": 19000,\r\n\"description\": \"<p>Застревают в зубах</p>\\n\",\r\n\"price\": \"-99\",\r\n\"regular_price\": \"-199\",\r\n\"sale_price\": \"-99\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://intershop3.skillbox.ru/api/products",
+					"protocol": "http",
+					"host": [
+						"intershop3",
+						"skillbox",
+						"ru"
+					],
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Редактирование карточки товара/Отрицательная цена скидка",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "iamfinallytester",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "skillboxadmin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"sale_price\": \"-35\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://intershop3.skillbox.ru/api/products/356173",
+					"protocol": "http",
+					"host": [
+						"intershop3",
+						"skillbox",
+						"ru"
+					],
+					"path": [
+						"api",
+						"products",
+						"356173"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Получение карточки конкретного товара/Отрицательные остаток и цены",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "iamfinallytester",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "skillboxadmin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://intershop4.skillbox.ru/api/products/9906",
+					"protocol": "http",
+					"host": [
+						"intershop4",
+						"skillbox",
+						"ru"
+					],
+					"path": [
+						"api",
+						"products",
+						"9906"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Удаление карточки товара/Остается в БД",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "iamfinallytester",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "skillboxadmin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://intershop4.skillbox.ru/api/products/9941",
+					"protocol": "http",
+					"host": [
+						"intershop4",
+						"skillbox",
+						"ru"
+					],
+					"path": [
+						"api",
+						"products",
+						"9941"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Получение карточки конкретного товара/Удаление_Остается в БД",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "iamfinallytester",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "skillboxadmin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://intershop4.skillbox.ru/api/products/9941",
+					"protocol": "http",
+					"host": [
+						"intershop4",
+						"skillbox",
+						"ru"
+					],
+					"path": [
+						"api",
+						"products",
+						"9941"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Редактирование карточки товара/с \"true\" на \"false\"\"_Повтор_тест",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "iamfinallytester",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "skillboxadmin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"manage_stock\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://intershop4.skillbox.ru/api/products/9943",
+					"protocol": "http",
+					"host": [
+						"intershop4",
+						"skillbox",
+						"ru"
+					],
+					"path": [
+						"api",
+						"products",
+						"9943"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Редактирование карточки товара/Поле name",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "iamfinallytester",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "skillboxadmin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"name\": \"Джинсы черные тест\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://intershop3.skillbox.ru/api/products/355611",
+					"protocol": "http",
+					"host": [
+						"intershop3",
+						"skillbox",
+						"ru"
+					],
+					"path": [
+						"api",
+						"products",
+						"355611"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "password",
+				"value": "iamfinallytester",
+				"type": "string"
+			},
+			{
+				"key": "username",
+				"value": "skillboxadmin",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
